@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Creating the string array that will be displayed in the listview -->
+    <string-array name="options">
+        <item>Papaya, Goodge Street </item>
+        <item>KFC, Tottenham Court Road</item>
+        <item>Wrap It Up, Goodge Street</item>
+        <item>Subway, Goodge Street</item>
+        <item>Wrapchic, Goodge Street</item>
+        <item>Simply Chicken, Drummond St</item>
+    </string-array>
+
+
+</resources>

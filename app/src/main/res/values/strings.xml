@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UCLU ISoc</string>
+    <string name="text_president">
+        "Ibrahim Qureshi"
+    </string>
+
+    <string name="about_president">
+        "Asalaamualaykum and welcome! My name is Ibrahim. I have the great pleasure of being Islamic Society president this year and it’s my job to make sure that the ISOC is servingyou to the best of our ability. University is an amazing time to experience new things andreally grow as an individual, ISOC provides a whole range of different activities for you toget involved in and have a great time. Follow us on Facebook and watch this space for updates on all our events."
+    </string>
+</resources>
