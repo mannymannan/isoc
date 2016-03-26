@@ -1,4 +1,4 @@
-package com.isoc.mmt.mainapp;
+package com.isoc.mmt.ucluisoc;
 
 import org.junit.Test;
 

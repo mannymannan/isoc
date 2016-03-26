@@ -1,4 +1,4 @@
-package com.isoc.mmt.mainapp;
+package com.isoc.mmt.ucluisoc;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

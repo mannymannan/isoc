@@ -17,7 +17,7 @@
 
     <!-- Buttons leading to various activities -->
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:text="Subscribe Here"
         android:textStyle="italic"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:text="Meet the President"
         android:textStyle="italic"
@@ -33,12 +33,19 @@
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:text="Nearby Halal Restaurants"
         android:textStyle="italic"
         android:id="@+id/bFood"
         android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="Prayer Times"
+        android:id="@+id/bPrayer"
+        android:layout_gravity="center_horizontal" />
 
     <ImageView
         android:layout_width="405dp"

@@ -1,21 +1,17 @@
-package com.isoc.mmt.mainapp;
+package com.isoc.mmt.ucluisoc;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListView;
 
 public class Home extends AppCompatActivity implements View.OnClickListener {
     //Button variables are initiated
     Button bHere;
     Button bMeet;
     Button bFood;
+    Button bPrayer;
 
 
     @Override
@@ -26,10 +22,12 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         bHere = (Button) findViewById(R.id.bHere);
         bMeet = (Button) findViewById(R.id.bMeet);
         bFood = (Button) findViewById(R.id.bFood);
+        bPrayer = (Button) findViewById(R.id.bPrayer);
 
         bHere.setOnClickListener(this);
         bMeet.setOnClickListener(this);
         bFood.setOnClickListener(this);
+        bPrayer.setOnClickListener(this);
 
     }
 
@@ -50,6 +48,10 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         else if (button_text.equals("Nearby Halal Restaurants"))
         {
             startActivity(new Intent(this, Food.class));
+        }
+        else if (button_text.equals("Prayer Times"))
+        {
+            startActivity(new Intent(this, Prayer.class));
         }
     }
 

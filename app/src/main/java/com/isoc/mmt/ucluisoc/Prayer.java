@@ -1,13 +1,13 @@
-package com.isoc.mmt.mainapp;
+package com.isoc.mmt.ucluisoc;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Committee extends AppCompatActivity {
+public class Prayer extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_committee);
+        setContentView(R.layout.activity_prayer__times);
     }
 }

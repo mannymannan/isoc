@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.isoc.mmt.mainapp">
+    package="com.isoc.mmt.ucluisoc">
 
     <application
         android:allowBackup="true"
@@ -18,7 +18,8 @@
         <activity android:name=".SubscribePage" />
         <activity android:name=".Registered" />
         <activity android:name=".Committee" />
-        <activity android:name=".Food"></activity>
+        <activity android:name=".Food" />
+        <activity android:name=".Prayer"></activity>
     </application>
 
 </manifest>
